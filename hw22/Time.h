@@ -14,8 +14,8 @@ class Time_
 public:
 	Time_(); // Current local time
 	Time_(int hour, int minutes, int seconds, bool format = true);
-	Time_(const Time_& obj); //??
-	Time_& operator = (const Time_& obj); //??
+	Time_(const Time_& obj); 
+	Time_& operator = (const Time_& obj); 
 
 	void setHour(int hour);
 	int getHour()const;
